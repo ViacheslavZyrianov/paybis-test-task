@@ -1,0 +1,34 @@
+input,
+select {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50; /* green */
+  color: white;
+  border: none;
+  padding: 7px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049; /* slightly darker green */
+}
+
+button[type="submit"]:active {
+  background-color: #3e8e41; /* even darker on click */
+  transform: scale(0.98); /* subtle press effect */
+}
+
+button[type="submit"]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background: #eee;
+}
